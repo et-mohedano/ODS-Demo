@@ -1,0 +1,326 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.cover-ods-1{
+    background: url(assets/images/background_cover_1.png) no-repeat center center;
+    background-size: cover;
+}
+.cover-ods-2{
+    background: url(assets/images/background_cover_2.svg) no-repeat center center;
+    background-size: cover;
+}
+
+.btn-welcome{
+    background-color: #8A3954 !important;
+    padding: 15px 40px !important;
+    color: #DDCEA2 !important;
+}
+
+#ods-logo{
+    position: absolute;
+    top: 20px;
+    left: 75%; 
+    transform: translateX(-50%);
+}
+
+#planeacion-logo{
+    position: absolute;
+    top: 0;
+    left: 25%; 
+    transform: translateX(-50%);
+    width: 420px;
+}
+
+#about-site{
+    background-color: #621132;
+    height: 100vh;
+}
+
+#about-site h1{
+    color: #CDC9C6;
+}
+
+.about-site-card{
+    min-height: 380px;
+    padding: 10px 40px !important;
+}
+
+#about-site-card-1{
+    background: url(assets/images/card-background-1.svg) no-repeat center center;
+    background-size: cover;
+}
+
+#about-site-card-2{
+    background: url(assets/images/card-background-1.svg) no-repeat top left;
+    background-size: cover;
+}
+
+#about-site-card-3{
+    background: url(assets/images/card-background-1.svg) no-repeat center center;
+    background-size: cover;
+}
+
+#about-site-row{
+    padding: 40px 10% !important;
+}
+
+.about-site-card img{
+    height: 120px;
+}
+
+#about-route {
+    height: 100vh;
+    background: url(assets/images/background-about.svg) no-repeat center center;
+    background-size: cover;
+}
+
+#about-route-card{
+    background-color: rgba(98, 17, 50, 0.6);
+    padding: 20px 40px;
+    margin-top: -100px;
+}
+
+.green-text-1 {
+    color: #C1B388;
+}
+
+.green-text-2{
+    color: #B38E5D;
+}
+
+.green-text-3{
+    color: #977445
+}
+
+.gray-text-1 {
+    color: #E4E4E4;
+}
+
+.color-text-1 {
+    color: #B49368;
+}
+
+.color-text-2 {
+    color: #CCCBCD;
+}
+
+.btn-background-1, .btn-background-2, .btn-background-3 {
+    color: #621132 !important;
+    border-color: #fff !important;
+}
+
+.btn-background-1 {
+    background-color: #E4E4E4 !important;
+}
+
+.btn-background-2 {
+    background-color: #B38E5D !important;
+}
+
+.btn-background-3 {
+    background-color: #EADFD0 !important;
+}
+.circle-icon{
+    display: block;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    background-color: #621132;
+}
+
+.circle-color-1 {
+    background-color: #CDC9C6;
+}
+
+.circle-color-2 {
+    background-color: #A79F97
+}
+
+.circle-color-3 {
+    background-color: #AA9579
+}
+
+.circle-color-4 {
+    background-color: #AC8758
+}
+
+.circle-color-5 {
+    background-color: #926E40
+}
+#how-works {
+    height: 100vh;
+    background-color: #621132;
+}
+
+.how-works-option {
+    border: #E4E4E4 1px solid;
+    border-radius: 20px;
+}
+
+#how-works-diagram{
+    max-width: 80%;
+}
+
+#how-works-call-to-1 {
+    background: url(assets/images/how-works-background-1.png) no-repeat center center;
+    background-size: cover;
+}
+
+#how-works-call-to-2 {
+    background: url(assets/images/how-works-background-2.png) no-repeat center center;
+    background-size: cover;
+}
+
+#how-works-call-to-3 {
+    background: url(assets/images/how-works-background-3.png) no-repeat center center;
+    background-size: cover;
+}
+
+.how-works-call-to{
+    padding: 20px;
+}
+
+.cover-ods-3 {
+    background: url(assets/images/background_cover_3.png) no-repeat center center;
+    background-size: cover;
+}
+
+.cover-ods-4 {
+    background-color: #621132;
+}
+
+.btn-contact {
+    background-color: #7D2C48 !important;
+    padding: 15px 40px !important;
+    color: #E4E4E4 !important;
+    border-color: #fff !important;
+}
+
+#asset-route-1{
+    max-width: 60%;
+}
+
+.social-icons{
+    color: #E4E4E4;
+    margin-top: 90px;
+}
+
+.social-icons svg {
+    margin-left: 20px;
+}
+
+.vh-middle-1{
+    height: 100vh;
+}
+
+.vh-middle-2{
+    height: 100vh;
+}
+
+#how-works-call-to-section{
+    width: 90%;
+}
+
+#register-section{
+    background-color: #CCCBCD;
+}
+
+#register-section input, #register-section select{
+    border-radius: 20px;
+    border: #AF8C53 2px solid;
+}
+
+#register-section input[type=number]{
+    border-radius: 0;
+    border: none;
+}
+
+#register-section textarea{
+    background-color: #E4E4E4;
+    border-radius: 30px;
+}
+
+.btn-register {
+    background-color: #621132 !important;
+    border-radius: 40px !important;
+    color: #E4E4E4 !important;
+}
+
+.icon-send{
+    color: #B38E5D;
+}
+
+/* #label-register-textarea{
+    color: #fff;
+} */
+
+@media only screen and (max-width: 700px) {
+    .vh-middle-1{
+        height: 40vh !important;
+        padding-top: 10% !important;
+    }
+
+    .vh-middle-2{
+        height: 60vh !important;
+    }
+    .container-fluid p{
+        font-size: medium !important;
+    }
+    .container-fluid h1{
+        font-size: 24px !important;
+    }
+    .container-fluid h2{
+        font-size: 20px !important;
+    }
+
+    #ods-logo {
+        width: 40%;
+        top: 10px;
+    }
+
+    #planeacion-logo {
+        width: 40%;
+    }
+
+    #about-site{
+        height: auto;
+        padding: 25px 0 !important;
+    }
+    #about-site-row{
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .about-site-card {
+        padding: 0px 2px !important;
+        min-height: 300px !important;
+        margin-bottom: 10px;
+    }
+    #about-site-card-3{
+        padding: 0 !important;
+        min-height: 330px ;
+    }
+
+    #about-route{
+        height: auto;
+    }
+
+    #about-route-card{
+        background-color: rgba(98, 17, 50, 0.9);
+        padding: 10px 10px;
+        margin-top: 0px;
+        margin-bottom: 15px;
+    }
+
+    #how-works{
+        height: auto;
+    }
+    #how-works-diagram{
+        max-width: 100%;
+    }
+    #how-works-call-to-section{
+        width: 100%;
+    }
+}
+
